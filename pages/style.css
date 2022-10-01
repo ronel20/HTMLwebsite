@@ -1,0 +1,171 @@
+body {
+    background-image: url('./images/background.jpg');
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+#header {
+    text-align: left;
+    background-color: midnightblue;
+    color: aliceblue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 5%;
+    border-style: groove;
+    border-radius: 0 0 30px 30px;
+}
+
+#site-title {
+    margin: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display:inline-block;
+}
+
+.nav-bar{
+    margin: 1% 1%;
+    font-size:100%;
+    padding: 3px;
+    transition: font-size 0.3s;
+    color:aliceblue;
+    text-decoration: none;
+    
+}
+
+#menu-back-link{
+    color: black;
+    padding-left: 40px;
+}
+
+#menu-back-link:hover{
+    color: brown;
+    padding-left: 40px;
+}
+
+.main-content {
+    margin: auto 10%;
+}
+
+
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.nav-bar:hover {
+    color:brown;
+    font-size:120%;
+}
+
+.main-img{
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin: 2% 2%;
+    object-fit: cover;
+}
+
+.my-title{
+    text-align: center;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-style: solid;
+    
+
+}
+
+.img-link-img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.img-link{
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    font-size: large;
+    padding: 3px;
+    transition: padding 0.3s, font-size 0.3s;
+}
+
+.img-link:hover {
+    padding: 10px;
+    font-size: x-large;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.games-list li{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.thumbnail-info{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(22, 96, 194);
+}
+
+
+.game-item-container {
+    display: inline;
+    width: 200px;
+    overflow:auto;
+    display:inline-block;
+    text-align: center;
+    border: none;
+    padding: 30px;
+    transition: border 0.3s;
+
+}
+
+.game-item-container:hover{
+    border: 3px solid rgb(0, 44, 102);
+    background-color: rgb(243, 153, 88);
+}
+
+.profile-pic{
+    height: 500px;
+    object-fit: cover;
+    margin: auto 50px;
+    float:left;
+}
+
+.personal-info{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-size: 32px;
+    border-style: dashed;
+    border-width: 3px;
+    padding-bottom: 150px;
+}
+
+.bold-underline-pretty{
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
